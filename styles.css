@@ -1,7 +1,128 @@
 /* Pranita */
 
 /* Darrell */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+.dbox1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.dbox1 {
+font-family: 'Anton', sans-serif;
+}
+
+.dbox1 h1 {
+font-size: 4rem;
+letter-spacing: 3px;
+margin-bottom: 0px;
+text-align: center;
+}
+
+.dbox1 h3 {
+font-weight:lighter;
+font-size: 1.4rem;
+font-family:Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+.dbox1 button {
+background-color: black;
+color: white;
+border-radius: 20px;
+font-size: 1.1rem;
+padding: 0.5rem 1rem 0.5rem 1rem;
+border-color: black;
+border-width: 1px;
+}
+
+.dbox1 button:hover {
+background-color: #757575;
+border-color: #757575;
+cursor: pointer;
+}
+
+.dmain {
+width: 100%;
+margin: 2rem 1rem 0 0;
+cursor: pointer;
+}
+
+.dfirstrow {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 2rem;
+padding: 1rem;
+overflow: auto;
+}
+
+.dfirstrow img {
+padding: 0.5rem;
+height: 50vh;
+}
+
+.dfirstrow img:hover {
+cursor: pointer;
+}
+
+.dtrendTitle {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+text-align: center;
+}
+
+.dtrends {
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: content-box;
+}
+
+.dtrends img {
+padding: 0.5rem;
+height: 50vh;
+}
+
+.dtrends img:hover {
+cursor: pointer;
+}
+
+.dtrends p {
+justify-self: flex-start;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+}
+
+.price1 {
+    display: inline;
+    justify-self: flex-end;
+}
+
+.dclassicsTitle {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+text-align: center;
+}
+
+.dclassics {
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+box-sizing: content-box;
+}
+
+.dclassics img {
+padding: 0.5rem;
+height: 50vh;
+}
+
+.dclassics img:hover {
+cursor: pointer;
+}
 /* Hari */
 
 /* Sonia */
