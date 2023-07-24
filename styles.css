@@ -3,5 +3,146 @@
 /* Darrell */
 
 /* Hari */
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+/* pictures in flexbox */
+.h-pictures {
+    display: flex;
+   justify-content: center;
+   padding-bottom: 4%;
+   align-items: center;
+}
+
+.fa {
+    padding: 1%;
+}
+
+/* table */
+.h-table {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-left: -4%;
+}
+
+td{
+    padding-left: 70px;
+    padding-top: 20px;
+    color: grey;
+    }
+
+.h-table-heading {
+    padding-bottom: 15px;
+    color: black;
+}
+
+.h-image {
+    padding: 0.5%;
+}
+
+.h-heading {
+    margin-left: 2%;
+}
+
+/* picture captions */
+.h-caption-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -4%;
+    margin-bottom: 3%;
+}
+
+.h-air-force-1 {
+    margin-left: -22%;
+}
+
+.h-laufen {
+    margin-left: -23%;
+}
+
+.h-member {
+    margin-left: -13%;
+}
+
+.h-air-force-1, .h-laufen, .h-member {
+    color: grey;
+}
+
+/* picture overlays */
+.h-image-container-for-article-number, .h-image-container-for-buttons {
+    position: relative;
+}
+
+.h-image-overlay {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: white;
+    min-width: 55px;
+    min-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: black;
+    opacity: 0.4;
+}
+
+/* buttons */
+.h-button-container {
+    position: absolute;
+    top: 88%;
+    left: 8%;
+}
+
+button {
+    background-color: white;
+    border: none;
+    min-height: 40px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ADAFB1;
+}
+
+.h-button-gender {
+    min-width: 100px;
+}
+
+.h-button-look-anzeigen {
+    min-width: 180px;
+}
+
+#unsere-apps-entdecken-container {
+    position: relative;
+}
+
+#unsere-apps-entdecken-button {
+    position: absolute;
+    top: 78%;
+    left: 6%
+}
+
+.h-entdecke-text {
+    position: absolute;
+    top: 65%;
+    left: 6%;
+    color: white;
+    font-size: 20px;
+}
+
+#h-training-club-button {
+    min-width: 180px;
+}
+
+/* links */
+.h-links {
+    text-decoration: none;
+    color: grey;
+}
 
 /* Sonia */
